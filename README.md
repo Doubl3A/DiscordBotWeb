@@ -23,5 +23,5 @@ at [http://localhost:3000](http://localhost:3000)
 ## Vercel
 
 This application is deployed on
-the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+the [Vercel Platform](https://vercel.com/)
 on the [discord.aadland.dev](https://discord.aadland.dev) domain

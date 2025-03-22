@@ -90,11 +90,13 @@ html {
 body {
     transition: ease-in .4s;
     background-color: var(--current-background);
-    background-image: linear-gradient(120deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(0, 0, 0, 0.5) 20%,
-    rgba(0, 0, 0, 1) 100%
+    background-image: linear-gradient(
+        120deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.5) 10%,
+        rgba(0, 0, 0, 1) 100%
     );
+    background-attachment: fixed;
 }
 
 /* Shared content container*/

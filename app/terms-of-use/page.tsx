@@ -14,7 +14,7 @@ export default () => {
             <Title className={""} {...content.title}/>
             <Paragraph {...content.intro}/>
             <ul className={"list-decimal list-inside grid gap-y-8"}>
-                {content.termsOfUse.map((terms: ITermsList) => <TermsList {...terms}/>)}
+                {content.termsOfUse.map((terms: ITermsList, index) => <TermsList key={`term-list-item-${index}`} {...terms}/>)}
             </ul>
         </section>
     )

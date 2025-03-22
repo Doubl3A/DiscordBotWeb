@@ -12,8 +12,8 @@ export default (props: IFeatureList) => {
                 <Separator/>
             </div>
             <ul className={"grid gap-6"}>
-                {props.featureList.map((feature: IFeature) =>
-                    <Feature {...feature}/>
+                {props.featureList.map((feature: IFeature, index) =>
+                    <Feature key={`feature-item-${index}`} {...feature}/>
                 )}
             </ul>
         </section>
